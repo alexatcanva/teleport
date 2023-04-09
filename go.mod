@@ -3,9 +3,9 @@ module github.com/gravitational/teleport
 go 1.19
 
 require (
-	cloud.google.com/go/container v1.13.1
+	cloud.google.com/go/container v1.14.0
 	cloud.google.com/go/firestore v1.9.0
-	cloud.google.com/go/iam v0.12.0
+	cloud.google.com/go/iam v0.13.0
 	cloud.google.com/go/kms v1.10.0
 	cloud.google.com/go/storage v1.28.1
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.4.0
@@ -67,7 +67,7 @@ require (
 	github.com/google/go-cmp v0.5.9
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/google/uuid v1.3.0
-	github.com/googleapis/gax-go/v2 v2.7.1
+	github.com/googleapis/gax-go/v2 v2.8.0
 	github.com/gorilla/websocket v1.5.0
 	github.com/gravitational/configure v0.0.0-20180808141939-c3428bd84c23
 	github.com/gravitational/form v0.0.0-20151109031454-c4048f792f70
@@ -141,9 +141,9 @@ require (
 	golang.org/x/sys v0.6.0
 	golang.org/x/term v0.6.0
 	golang.org/x/text v0.8.0
-	google.golang.org/api v0.111.0
-	google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4
-	google.golang.org/grpc v1.53.0
+	google.golang.org/api v0.116.0
+	google.golang.org/genproto v0.0.0-20230331144136-dcfb400f0633
+	google.golang.org/grpc v1.54.0
 	google.golang.org/grpc/examples v0.0.0-20221010194801-c67245195065
 	google.golang.org/protobuf v1.30.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
@@ -175,10 +175,10 @@ require (
 
 require (
 	cloud.google.com/go v0.110.0 // indirect
-	cloud.google.com/go/compute v1.18.0 // indirect
+	cloud.google.com/go/compute v1.19.0 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	cloud.google.com/go/longrunning v0.4.1 // indirect
-	cloud.google.com/go/pubsub v1.28.0 // indirect
+	cloud.google.com/go/pubsub v1.30.0 // indirect
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
 	github.com/99designs/keyring v1.2.2 // indirect
 	github.com/Azure/azure-pipeline-go v0.2.3 // indirect
@@ -246,7 +246,7 @@ require (
 	github.com/golang-sql/civil v0.0.0-20190719163853-cb61b32ac6fe // indirect
 	github.com/golang-sql/sqlexp v0.1.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
-	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/golang/snappy v0.0.3 // indirect
 	github.com/google/certificate-transparency-go v1.1.1 // indirect
 	github.com/google/flatbuffers v22.11.23+incompatible // indirect
